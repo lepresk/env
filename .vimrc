@@ -14,6 +14,8 @@ set showmode                    " show the current mode
 set clipboard=unnamed           " set clipboard to unnamed to access the system clipboard under windows
 set wildmode=list:longest,longest:full   " Better command line completion
 
+set number
+
 " Show EOL type and last modified timestamp, right after the filename
 " Set the statusline
 set statusline=%f               " filename relative to current $PWD
